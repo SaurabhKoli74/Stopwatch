@@ -14,12 +14,13 @@ main{
 }
 .container{
     border-radius: 5%;
-    height:80%;
-    width:30%;
+    height:60%;
+    width:50%;
+    min-width:300px;
     display: flex;
     
     flex-direction: column;
-    gap: 10rem;
+    gap: 5rem;
     align-items: center;
     justify-content:center;
     background-color: azure;
@@ -37,13 +38,15 @@ main{
 }
 
 .timer-controller button{
-    margin: 3px;
+    margin: 5px;
     height: 2.5rem;
     width: 4rem;
     font-size: larger;
     padding: 5px;
 }
 
-button:hover{
-    cursor: pointer;
+.heading{
+    font-weight: bold;
+    font-family:monospace;
+    /* color:chocolate */
 }
